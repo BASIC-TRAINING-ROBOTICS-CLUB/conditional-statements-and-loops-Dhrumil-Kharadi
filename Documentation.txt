@@ -1,0 +1,32 @@
+Gray code is a binary numeral system where two successive values differ in only one bit. This makes it useful in various applications like error correction and digital systems.
+
+Here's a simple explanation of converting a binary number to Gray code:
+
+   Binary to Gray Code Conversion
+
+1. Binary Number: This is the original binary number you want to convert.
+
+2. Gray Code Formula: 
+   - The most significant bit (MSB) of the Gray code is the same as the MSB of the binary number.
+   - For the rest of the bits, each bit in the Gray code is obtained by XORing the current bit of the binary number with the previous bit.
+
+Conversion Steps
+
+1. Start with the binary number.
+2. Write down the MSB of the binary number as the MSB of the Gray code.
+3. For each subsequent bit: XOR the current bit of the binary number with the previous bit.
+
+Example
+
+Let's convert the binary number 1010 to Gray code:
+
+1. Binary Number: 1010
+2. MSB of Gray Code: The MSB of Gray code is the same as the MSB of binary, so it is 1.
+3. Calculate the remaining bits:
+   - Second bit: 1 XOR 0 = 1
+   - Third bit: 0 XOR 1 = 1
+   - Fourth bit: 1 XOR 0 = 1
+
+   So, the Gray code for the binary number 1010 is 1111.
+
+
